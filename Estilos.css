@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.banner{
+    /* border: solid 3px pink; */
+    color: white;
+    padding: 40px 0;
+    height: 400px;
+    background-image: url("assets/imgs/bg-jelly-fish-para_outras_pags.png");
+    background-size:cover;
+}
+.banner .container{
+/* border: solid 3px red; */
+display: flex;
+justify-content: center;
+align-items: center;
+height: 400px;
+}
+
+.banner p{
+    font-size: 36px;
+    width: 280px;
+    /* border:solid 3px green; */
+
+}
+.banner .container span{
+    font-weight: 800;
+ 
+}
+.header{
+    color: #32b9cd; 
+    border-bottom: solid 3px #32b9cd;
+    /* border: solid 3px green; */
+}
+
+.container{
+    /* border: solid 3px yellow; */
+    width: 80%;
+    margin: auto;
+}
+
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    color: #e3b062;
+    list-style: none;
+    align-items: center;
+}
+
+/* Missão valores e Visão */
+
+.social {
+    /* border: solid 3px green; */
+    background-color: white;
+}
+.box img {
+    width: 170px;
+}
+
+.social .container{
+    /* border-color: purple; */
+}
+
+.social .container .boxes{
+    /* border: solid 3px yellow; */
+    display: flex;
+}
+.box {
+    margin: 50px 10px 10px 10px;
+    /* border: solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social p{
+    text-align: center;
+}
+
+.footer{
+    background-color: #32b9cd;
+    height: 150px;
+    color: #fff;
+    display: flex;
+}
+.footer .container{
+    display:flex;
+    justify-content: center;
+}
