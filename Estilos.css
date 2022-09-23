@@ -26,10 +26,11 @@ height: 400px;
     /* border:solid 3px green; */
 
 }
-.banner .container span{
+.banner .container .negrito{
     font-weight: 800;
  
 }
+
 .header{
     color: #32b9cd; 
     border-bottom: solid 3px #32b9cd;
@@ -50,7 +51,7 @@ height: 400px;
 
 .navbar{
     display: flex;
-    width: 600px;
+    width: 300px;
     justify-content: space-around;
     color: #e3b062;
     list-style: none;
@@ -96,4 +97,12 @@ height: 400px;
 .footer .container{
     display:flex;
     justify-content: center;
+}
+
+.navbar .agora{
+    font-weight: 1000;
+}
+.navbar a{
+    color: #e3b062;
+    text-decoration: none;
 }
