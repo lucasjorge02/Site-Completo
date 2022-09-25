@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - AcquaTec</title>
+    <title>Cadastro - AcquaTec</title>
     <link rel="stylesheet" href="Estilos.css">
     <link rel="stylesheet" href="formulario_estilo.css">
 
@@ -19,25 +19,31 @@
                 <li><a href="Index.html">Home</a></li>
                 <li>Simulador</li>
                 <li>|</li>
-                <li class="agora">Login</li>
-                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li class="agora">Cadastro</li>
             </ul>
         </div>
     </div>
 
     <div class="banner">
         <div class="container">
-            <div class="caixa_formulario">
-                <h1>Olá de volta!</h1>
-                <div class="formulario">
+            <div class="caixa_formulario2">
+                <h1>Bem Vindo!</h1>
+                <div class="formulario2">
 
+                    <span id="negrito">Nome:</span>
+                    <input id="ipt_nome" placeholder="Seu Nome:" type="text">
+                    
                     <span id="negrito">E-mail:</span>
                     <input id="ipt_email" placeholder="Seu E-mail" type="email">
-
+                    
                     <span id="negrito">Senha:</span>
                     <input id="ipt_senha" placeholder="*****" type="password">
 
-                    <button>Entrar</button>
+                    <span id="negrito">Confirmar Senha:</span>
+                    <input id="ipt_Csenha" placeholder="*****" type="password">
+
+                    <button>Cadastrar</button>
                 </div>
             </div>
         </div>
